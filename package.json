@@ -1,0 +1,31 @@
+{
+  "name": "test-project-ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+		"build": "webpack --mode production"
+		
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/479maxim479/test-project-ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/479maxim479/test-project-ajs/issues"
+  },
+  "homepage": "https://github.com/479maxim479/test-project-ajs#readme",
+  "dependencies": {
+    "@479maxim479/ajs-node": "^1.0.0",
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.6",
+    "@babel/preset-env": "^7.22.6",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
